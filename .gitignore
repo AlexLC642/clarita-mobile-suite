@@ -1,0 +1,31 @@
+# === Node / Backend ===
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+build/
+.env
+.env.*
+.vercel/
+
+# === Flutter / Dart ===
+**/build/
+**/.dart_tool/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.metadata
+**/.gradle/
+**/GeneratedPluginRegistrant.java
+pubspec.lock
+
+# === OS / Editor ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.tmp
+
+# === Prisma ===
+prisma/migrations/

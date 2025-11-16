@@ -1,0 +1,24 @@
+{
+  "name": "clarita-mobile-backend",
+  "version": "1.0.0",
+  "main": "src/app/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/app/server.js",
+    "start": "node src/app/server.js",
+    "build": "echo \"Backend sin build (Express)\""
+  },
+  "dependencies": {
+    "@prisma/client": "latest",
+    "bcryptjs": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "jsonwebtoken": "latest",
+    "morgan": "latest",
+    "serverless-http": "^4.0.0"
+  },
+  "devDependencies": {
+    "prisma": "latest"
+  }
+}
